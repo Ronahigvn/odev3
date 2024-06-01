@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
@@ -19,7 +17,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   void _onIconPressed() {
-    print('İnsan İkonuna Tıklandı');
+    print('İnsan ikkonuna tiklandi');
   }
 
   @override
@@ -40,9 +38,9 @@ class MyHomePage extends StatelessWidget {
                 ),
                 SizedBox(width: 10),
                 Text(
-                  'Hi-Kod',
+                  ' Hi-Kod ',
                   style: TextStyle(
-                    color: Colors.white, // Metin rengi beyaz
+                    color: Colors.white, 
                   ),
                 ),
               ],
@@ -59,17 +57,17 @@ class MyHomePage extends StatelessWidget {
         child: Container(
           width: 300,
           height: 300,
-          color: Color(0xFFBDF5F2), // Kutunun rengi
+          color: Color(0xFFBDF5F2), 
           child: Center(
             child: Container(
               width: 200,
               height: 100,
-              color: Colors.indigo, // İç kutunun rengi koyu mavi (indigo)
+              color: Colors.indigo,
               child: Center(
                 child: Text(
-                  'Hello World',
+                  ' Hello World ',
                   style: TextStyle(
-                    color: Colors.white, // Metin rengi beyaz
+                    color: Colors.white,
                   ),
                 ),
               ),
